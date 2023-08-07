@@ -10,6 +10,12 @@
 
 # production
 /build
+lccmsgit
+lccmsgit.pub
+todo.txt
+db.sql
+
+
 
 # misc
 .DS_Store
