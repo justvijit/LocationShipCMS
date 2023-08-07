@@ -1,6 +1,5 @@
 {
   "name": "locationshipcms",
-  "homepage": "https://www.parxfit.com/locationship",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
