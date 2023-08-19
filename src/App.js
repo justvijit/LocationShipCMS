@@ -67,9 +67,9 @@ function App() {
   const [signedIn, setSignedIn] = useState(false);
   const [xhRunning,setXhrRunning] = useState(false);
 
-  const baseUrl = 'http://15.207.243.148:8081/backend';
+//  const baseUrl = 'http://13.126.235.45:8081/backend';
 //    const baseUrl = 'http://localhost:8081/backend';
-
+const baseUrl = 'https://lsapi.parxfit.com/backend';
   window.apiCall = async (type, url, data, authRequired, callBack) => {
     if (type === 'GET') {
       await getApiCall(url, authRequired, callBack);
